@@ -17,5 +17,5 @@ def create_app(config_file="settings.py"):
 #   pipenv shell
 #   good to go
 
-#creating database before forst use
+#creating database before first use
 #   from url_shortner import 
