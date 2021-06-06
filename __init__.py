@@ -10,7 +10,7 @@ def create_app(config_file="settings.py"):
     return app
 
 
-
+# This is for only those who are using virtual-environment (in my case it's pipenv)
 #start pipenv virtual environment before anything alse by
 #   move to the root-most folder of the project
 #   type in command prompt
