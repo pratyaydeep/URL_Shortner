@@ -18,4 +18,10 @@ def create_app(config_file="settings.py"):
 #   good to go
 
 #creating database before first use
-#   from url_shortner import 
+#   "set database path" $ export SQLALCHEMY_DATABASE_URI = 'sqlite:///db.sqlite3'
+#   "run python" $ python
+#   inside python do the following :- 
+#       >>>from url_shortner import create_app
+#       >>>from url_shortner.extensions import db
+#       >>>db.create_all(app=create_app())
+
