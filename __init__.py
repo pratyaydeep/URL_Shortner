@@ -24,4 +24,3 @@ def create_app(config_file="settings.py"):
 #       >>>from url_shortner import create_app
 #       >>>from url_shortner.extensions import db
 #       >>>db.create_all(app=create_app())
-
